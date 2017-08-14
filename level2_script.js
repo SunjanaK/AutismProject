@@ -2,8 +2,8 @@ var data = {
   one_one: "walk",
   one_two: "mall",
   one_three: "wii",
-  two_one: "soccer",
-  two_two: "basketball",
+  two_one: "basketball",
+  two_two: "soccer",
   two_three: "football",
   three_one: "swimming",
   three_two: "badminton"
@@ -25,7 +25,40 @@ function check(param) {
 
 $("#two_one").click(function() {
   console.log("clicked!");
-  check("two_two");
+  check("two_one");
 });
+
+
+function check1(param) {
+  var word = data[param];
+  if (word != ""){
+    alert(word);
+      window.location.href = "output.html?word=" + word;
+    } else {
+       alert("Oops!!");
+    }
+  };
+
+  $("#two_two").click(function() {
+    console.log("clicked!");
+    check("two_two");
+  });
+
+
+  function check2(param) {
+    var word = data[param];
+    if (word != ""){
+      alert(word);
+        window.location.href = "output.html?word=" + word;
+      } else {
+         alert("Oops!!");
+      }
+    };
+
+    $("#two_three").click(function() {
+      console.log("clicked!");
+      check("two_three");
+    });
+
 
 });
