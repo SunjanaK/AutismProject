@@ -13,7 +13,7 @@ var data = {
 
 $( document ).ready(function() {
 
-function check(param) {
+function check6(param) {
     var word = data[param]; // change here
     if (word != "") {
       alert(word);
@@ -23,13 +23,13 @@ function check(param) {
         }
 };
 
-$("#two_one").click(function() {
+$("#three_one").click(function() {
   console.log("clicked!");
-  check("two_one");
+  check6("three_one");
 });
 
 
-function check1(param) {
+function check7(param) {
   var word = data[param];
   if (word != ""){
     alert(word);
@@ -39,13 +39,13 @@ function check1(param) {
     }
   };
 
-  $("#two_two").click(function() {
+  $("#three_two").click(function() {
     console.log("clicked!");
-    check("two_two");
+    check7("three_two");
   });
 
 
-  function check2(param) {
+  function check8(param) {
     var word = data[param];
     if (word != ""){
       alert(word);
@@ -55,9 +55,9 @@ function check1(param) {
       }
     };
 
-    $("#two_three").click(function() {
+    $("#three_three").click(function() {
       console.log("clicked!");
-      check("two_three");
+      check8("three_three");
     });
 
 
