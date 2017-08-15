@@ -1,5 +1,4 @@
 
-
 function GetURLParameter(sParam)
 {
     var sPageURL = window.location.search.substring(1);
@@ -20,8 +19,11 @@ function GetURLParameter(sParam)
   //  console.log(data["two_one"]);
 
     var word = GetURLParameter("word");
-    $("h2#replace").replaceWith(word);
+    var wordString = word.toString();
+    $("h2#replace").text(wordString);
+    //$("h2#replace").attr("css", {font-family, "Indie Flower"});
 
+    console.log("i did it")
 
 
 });
