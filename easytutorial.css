@@ -1,0 +1,43 @@
+body {
+
+      background-image: url("https://cdn.pixabay.com/photo/2017/04/19/13/03/coffee-2242213_1280.jpg");
+      background-repeat: no-repeat;
+      height:100%;
+      margin:0%;
+      background-size: cover;
+
+}
+
+.dropdown-button {
+      font-size: 20px;
+
+
+
+}
+
+
+.brand-logo {
+      font-size:60px;
+      margin-left: 5%;
+}
+
+
+.hide-on-med-and-down {
+      font-size:30px;
+}
+
+
+
+.main {
+    height: 100vh;
+    background-color: blanchedalmond;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.intro {
+   font-size: 20px;
+   color: black;
+   text-align: center;
+}
