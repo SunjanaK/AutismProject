@@ -1,3 +1,5 @@
+// dictionary
+
 var data = {
   one_one: "walk",
   one_two: "mall",
@@ -11,6 +13,11 @@ var data = {
 
 };
 
+// check function look for parameter inside the dictionary,
+//if the value associated with the parameter is not an empty string
+// append that value to the existing url to form a query string
+
+// it will be call whenever the button is clicked --> onClick
 
 $( document ).ready(function() {
 

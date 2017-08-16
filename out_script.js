@@ -1,3 +1,5 @@
+// dictionary with all img src we used
+// first part corresponds to the value of the query string
 var pics_for_words = {
   'walk':'http://images.clipartpanda.com/walking-clipart-qcBAyKpXi.svg',
   'shopping':'http://images.clipartpanda.com/shopping-bag-clipart-di6659yi9.png',
@@ -10,6 +12,8 @@ var pics_for_words = {
   'baseball': 'http://clipartix.com/wp-content/uploads/2016/12/Small-baseball-clipart-clipartfest-2.png',
 };
 
+//GetURLParameter loop through the url to check whether "word" is part of it.
+// if it is, the function will return the value associated with "word"
 
 function GetURLParameter(sParam)
 {
@@ -28,21 +32,20 @@ function GetURLParameter(sParam)
 
   $( document ).ready(function() {
     console.log( "ready!" );
-  //  console.log(data["two_one"]);
 
+    // the variable new_word stores the value associated with the key "word" (word = "basketball")
     var new_word = GetURLParameter("word");
-    // var wordString = word.toString();
+    // will replace the html element (filler) with information stored in var new_word (in this case "basektball")
     $("h2#replace").text(new_word);
+    //Look for the image src insied the dictionary with label "basketball"
     var image_name = pics_for_words[new_word];
+    //replace the filler img src in html with the one stored in image_name
     $("#pic").attr("src",image_name);
-    //$("h2#replace").attr("css", {font-family, "Indie Flower"});
 
     console.log("i did it");
 
 
-    // var audio = new Audio();
-    // audio.src ='http://translate.google.com/translate_tts?ie=utf-8&tl=en&q=Hello%20World.';
-    // audio.play(
+
 
 
   });

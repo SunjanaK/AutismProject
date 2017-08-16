@@ -1,3 +1,6 @@
+// dictionary
+// first part --> id corresponding to each of the button
+// second part --> match the id with correct word
 var data = {
   one_one: "walk",
   one_two: "mall",
@@ -11,6 +14,12 @@ var data = {
 
 
 };
+
+// check function look for parameter (in this case, the parameters are the ids of the button) inside the dictionary,
+//if the value associated with the parameter is not an empty string
+// append that value to the existing url to form a query string (ex. word = "basketball")
+
+// it will be call whenever the button is clicked --> onClick
 
 
 $( document ).ready(function() {
