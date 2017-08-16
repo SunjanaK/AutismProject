@@ -41,7 +41,7 @@ function check1(param) {
 
   $("#two_two").click(function() {
     console.log("clicked!");
-    check("two_two");
+    check1("two_two");
   });
 
 
@@ -57,7 +57,7 @@ function check1(param) {
 
     $("#two_three").click(function() {
       console.log("clicked!");
-      check("two_three");
+      check2("two_three");
     });
 
 

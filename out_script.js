@@ -19,11 +19,14 @@ function GetURLParameter(sParam)
   //  console.log(data["two_one"]);
 
     var word = GetURLParameter("word");
-    var wordString = word.toString();
-    $("h2#replace").text(wordString);
+    // var wordString = word.toString();
+    $("h2#replace").text(word);
     //$("h2#replace").attr("css", {font-family, "Indie Flower"});
 
-    console.log("i did it")
+    console.log("i did it");
 
+    var audio = new Audio();
+    audio.src ='http://translate.google.com/translate_tts?ie=utf-8&tl=en&q=Hello%20World.';
+    audio.play();
 
 });
