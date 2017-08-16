@@ -6,7 +6,8 @@ var data = {
   two_two: "soccer",
   two_three: "football",
   three_one: "swimming",
-  three_two: "badminton"
+  three_two: "tennis",
+  three_three: "baseball"
 
 };
 
