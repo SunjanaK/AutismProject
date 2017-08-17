@@ -46,12 +46,7 @@ function GetURLParameter(sParam)
 
     console.log("i did it");
 
-<<<<<<< HEAD
-    // var audio = new Audio();
-    // audio.src ='http://translate.google.com/translate_tts?ie=utf-8&tl=en&q=Hello%20World.';
-    // audio.play();
-=======
->>>>>>> 2461654ae75eefa61c5f9231137bfa71c685659c
+
 
 
 
