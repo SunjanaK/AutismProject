@@ -3,13 +3,15 @@
 var pics_for_words = {
   'walk':'http://images.clipartpanda.com/walking-clipart-qcBAyKpXi.svg',
   'shopping':'http://images.clipartpanda.com/shopping-bag-clipart-di6659yi9.png',
-  'wii': "http://worldartsme.com/images/wii-clipart-1.jpg",
+  'wii': "https://upload.wikimedia.org/wikipedia/commons/5/56/Wii_Wiimoteb.png",
   'basketball': "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Basketball.png/170px-Basketball.png",
   'soccer': 'http://www.lijsoccer.com/images/soccerBall.png',
   'football': 'https://kwso.org/wp-content/uploads/2017/07/football.png',
   'swimming': 'https://clipartion.com/wp-content/uploads/2015/11/swimming-clip-art-clipart-free-clipart.png',
   'tennis': 'http://clipartix.com/wp-content/uploads/2016/05/Tennis-clip-art-at-clker-vector-clip-art.png',
   'baseball': 'http://clipartix.com/wp-content/uploads/2016/12/Small-baseball-clipart-clipartfest-2.png',
+  'computer_game':'http://bit.ly/2vtsrNX',
+  'phone_game':'http://bit.ly/2x7piBt',
 };
 
 //GetURLParameter loop through the url to check whether "word" is part of it.
