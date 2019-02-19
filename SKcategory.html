@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+{% load staticfiles %}
+
+
+<html>
+<head>
+<title>Category Page</title>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+<!-- font awesome -->
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Anton|Handlee|Indie+Flower" rel="stylesheet">
+
+
+</head>
+
+<body bgcolor = "#FFEC8B">
+    <script>
+
+        // var uno = "If this is your first time using Just PicIt, we reccomend checking out the FAQ's before doing anything";
+        var dos = "Let your sibling pick a category to get going, or pick something you think you two might enjoy!";
+
+
+
+        // swal("Welcome to Just PicIt!", uno, {
+        // buttons: {
+        //     cancel: "Next",
+
+        //     }
+        // })
+        // .then((value) => {
+        //     switch (value) {
+
+        //         default:
+        //             swal("Set a time for how long you're going to play together (we reccommend 5 minutes for the first day). " + "\n" + "\n" + dos);
+        //     }
+        // });
+
+    // .then((value) => {
+    //     switch (value) {
+
+    //     case "defeat":
+    //         swal("time stuff");
+    //         break;
+    //     }
+    // });
+
+
+
+swal("Welcome to Just PicIt!",  dos);
+
+        </script>
+  <nav>
+      <div class="nav-wrapper">
+        <!--<a href="#" class="brand-logo center">Just PicIt</a>-->
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href= "tutorials4.html">Helpful Hints</a></li>
+           <li><a href="homepage.html">Home</a></li>
+
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href= "chs.html">FAQs</a></li>
+            </ul>
+      </div>
+    </nav>
+
+<br>
+<h3 style = "margin-left: 80px; font-family:'Indie Flower', cursive;"> Choose a category, please: </h3>
+<br>
+
+<!--first category -->
+   <a href = "level.html"><button type="button" id = "sports"style = "background-color: #32CD32; color:white;
+   padding: 15px 32px; text-align: center; text-decoration: none; border-radius: 12px;
+   display: inline-block; height: 300px; width: 500px; margin-left: 125px;">
+      <img src = "http://bit.ly/2hVMJKW" style = "height: 250px; width: 350px;">
+ </button>
+</a>
+ <!-- second category -->
+   <a href = "music.html"><button type="button" id = "music"style = "background-color: #32CD32; color:white;
+   padding: 15px 32px; text-align: center; text-decoration: none; border-radius: 12px;
+   display: inline-block; height: 300px; width: 500px; margin-left: 100px;">
+      <img src = "http://bit.ly/2vPMHKD" style = "height: 250px; width: 350px;">
+ </button>
+</a>
+ <br><br><br><br>
+
+<!--Third Category -->
+ <a href = "art.html"><button type="button" id = "art"style = "background-color: #32CD32; color:white;
+ padding: 15px 32px; text-align: center; text-decoration: none; border-radius: 12px;
+ display: inline-block; height: 300px; width: 500px; margin-left: 125px;">
+    <img src = "https://cdn4.iconfinder.com/data/icons/SUPERVISTA/graphics/png/400/palette.png" style = "height: 250px; width: 350px;">
+</button>
+</a>
+
+ <!--Fourth Category -->
+ <a href = "electronic.html"><button type="button" id = "electronics"style = "background-color: #32CD32; color:white;
+ padding: 15px 32px; text-align: center; text-decoration: none; border-radius: 12px;
+ display: inline-block;  height: 300px; width: 500px; margin-left: 100px;">
+    <img src = "http://bit.ly/2vtsrNX" style = "height: 250px; width: 350px;">
+</button>
+</a>
+
+<br><br><br><br>
+
+ </body>
+ </html>
